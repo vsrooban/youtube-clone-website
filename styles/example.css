@@ -1,0 +1,16 @@
+.example-one{
+                
+    font-weight: bold;
+    font-size: 60px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.example-two{
+    font-style:normal;
+    font-size: 40px;
+    text-align: center;
+
+}
+.example-three{
+    text-decoration: underline;
+}

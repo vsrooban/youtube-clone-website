@@ -1,0 +1,227 @@
+.header{
+    height: 55px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: white;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(236, 231, 231);
+    z-index: 100;
+    
+
+}
+.left-section{
+    
+   
+    display: flex;
+    align-items: center;
+   
+    
+    
+}
+.hamburger-menu{
+    height: 24px;
+    margin-right: 24px;
+    margin-left: 24px;
+    cursor: pointer;
+
+    
+
+}
+.youtube-logo{
+    height: 20px;
+    cursor: pointer;
+    
+
+}
+.middle-section{
+   
+    flex: 1;
+    margin-right: 40px;
+    margin-left: 70px;
+    max-width: 500px;
+    display: flex;
+    align-items: center;
+    
+
+
+}
+.search-bar{
+    flex: 1;
+    height: 36px;
+    padding-left: 10px;
+    font-size: 16px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(192, 192, 192);
+    border-radius: 2px;
+    box-shadow: inset 1px 2px 3px rgba(0, 0, 0, 0.05);
+    width: 0;
+}
+.search-bar::placeholder{
+    font-family: Roboto,Arial;
+    font-size: 16px ;
+}
+.search-button{
+    height: 40px;
+    width: 60px;
+    background-color: rgb(240,240,240);
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(192, 192, 192);
+    margin-left: -1px;
+    cursor: pointer;
+    
+}
+.search-button,
+.voice-search-button,
+.upload-button,
+.youtubeapp-button,
+.notification-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.search-button .tooltip,
+.voice-search-button .tooltip,
+.upload-button .tooltip,
+.youtubeapp-button .tooltip,
+.notification-button .tooltip{
+    position: absolute;
+    background-color:gray;
+    color: white;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    border-radius: 2px;
+    font-size: 12px;
+    font-family: arial;
+    bottom: -30px;
+    opacity: 0;
+    transition: 0.15s;
+    pointer-events: none;
+    white-space: nowrap;
+   
+    
+}
+
+.search-button:hover .tooltip,
+.voice-search-button:hover .tooltip,
+.upload-button:hover .tooltip,
+.youtubeapp-button:hover .tooltip,
+.notification-button:hover .tooltip{
+    opacity: 1;
+}
+.search-icon{
+    height: 25px;
+    margin-top: 4px;
+   
+    
+}
+.voice-search-button{
+   
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+    border: none;
+    background-color: white;
+    margin-left: 10px;
+    cursor: pointer;
+    
+    
+}
+
+.voice-search-icon{
+    height: 24px;
+    margin-top: 4px;
+   
+    
+}
+.right-section{
+    
+    width: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-shrink: 0;
+    margin-right: 35px;
+    
+}
+.upload-button{
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+    border: none;
+    background-color:white;
+    margin-right: 15px;
+    cursor: pointer;
+}
+.upload-icon{
+   height: 24px;
+   margin-top: 4px;
+   
+}
+.youtubeapp-button{
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+    border: none;
+    background-color:white;
+    margin-right: 15px;
+    cursor: pointer;
+    
+}
+.youtubeapp-icon{
+    height: 24px;
+    margin-top: 4px;
+}
+.notification-button{
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+    border: none;
+    background-color: white;
+    margin-right: 10px;
+    cursor: pointer;
+    margin-top: 5px;
+}
+.notification-icon{
+    height: 24px;
+    margin-top: 4px;
+}
+.profile-icon{
+    height: 32px;
+    border-radius: 16px;
+    margin-left: 4px;
+    cursor: pointer;
+    
+}
+
+.notification-icon-container{
+    position: relative;
+}
+.notification-count{
+    position: absolute;
+    top: 2px;
+    right: -4px;
+    background-color: rgb(200, 0, 0);
+    color: white;
+    font-family: roboto,arial;
+    font-size: 11px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    border-radius: 20px;
+   
+    
+
+}
+

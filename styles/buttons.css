@@ -1,0 +1,159 @@
+.subscribe-button {
+    background-color: rgb(200, 0, 0);
+    color:white;
+    border:none;
+    height: 35px;
+    width: 105px;
+    border-radius: 2px;
+    cursor: pointer;
+    margin-right: 40px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    transition: opacity 0.15s;
+
+}
+.subscribe-button:hover{
+    opacity: 0.7;
+    
+}
+.subscribe-button:active{
+    opacity: 0.4;
+   
+}
+.join-button{
+    background-color: whitesmoke;
+    border-color:rgb(35, 35, 243);
+    border-style:solid;
+    border-width: 1px;
+    color:rgb(35, 35, 243);
+    
+    border-radius: 2px;
+    cursor:pointer;
+    margin-right: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 16px ;
+    padding-right: 16px;
+    transition: background-color 0.15s,color 0.15s;
+}
+.join-button:hover{
+    background-color: rgb(35, 35, 243);
+    color: white;
+     
+}
+.join-button:active{
+    opacity: 0.7;
+}
+.add-button
+{
+    background-color: rgb(0, 149, 255);
+    color:white;
+    border:none;
+    height: 32px;
+    width: 80px;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: 15px;
+    cursor:pointer;
+    margin-right: 40px;
+    transition: box-shadow 0.15s;
+    
+
+
+}
+.add-button:hover{
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.15)  ;
+
+}
+
+
+.uber-button{
+    background-color: black;
+    color:white;
+    border: none;
+    border-color: black;
+    height: 32px;
+    width: 100px;
+    margin-right: 40px;
+    cursor: pointer;
+
+
+}    
+
+.uber-button:active{
+    opacity: 0.7;
+}
+.Amazon-button{
+    background-color: rgb(255,216,20);
+    color:black;
+    border:none;
+    border-radius: 60px;
+    height: 30px;
+    width: 160px;
+    margin-left: 40px;
+    cursor: pointer;
+
+}
+.github-button{
+    background-color: rgb(46,164,79);
+    color: white;
+    font-weight: bold;
+    height: 30px;
+    width: 75px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 40px;
+
+}
+.bootstrap-button{
+    background-color: rgb(75, 16, 163);
+    color:white;
+    font-weight: bold;
+    height: 40px;
+    width: 105px;
+    border-color: none;
+    border:none;
+    border-radius: 2px;
+    cursor:pointer;
+
+}
+.addboot-button{
+    background-color: rgb(243, 245, 247);
+    color:rgb(75, 16, 163);
+    border-color: rgb(111, 58, 190);
+    height:  40px;
+    width: 105px;
+    cursor: pointer;
+    margin-left: 10px;
+    border-width: 1px;
+    border-radius: 2px;
+
+}
+.linkedin-button{
+    background-color: blue;
+    color:white;
+    font-weight: bold;
+    font-size: 15px;
+    height: 40px;
+    width: 250px;
+    border:none;
+    border-radius: 60px;
+    border-width: 2px;
+    cursor:pointer;
+}
+.addin-button{
+    background-color: white;
+    color:blue;
+    font-weight: bold;
+    font-size: 15px;
+    height: 40px;
+    width: 80px;
+    border-radius: 60px;
+    border-color: blue;
+    margin-left: 10px;
+    
+    border-width: 1px;
+    cursor: :pointer;
+
+}
